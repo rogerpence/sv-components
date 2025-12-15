@@ -12,6 +12,8 @@ import (
 
 const filePermissions = 0644 // rw-r--r--
 
+const githubAccount = "rogerpence"
+
 func main() {
 	// Parse command line arguments
 	if len(os.Args) < 2 {
@@ -217,7 +219,9 @@ func main() {
 	}
 
 	// Create clipboard string
-	clipboardMask := "pnpm add https://github.com/rogerpence/%s#v%s"
+	// clipboardMask := "pnpm add https://github.com/rogerpence/%s#v%s"
+
+	clipboardMask := fmt.Sprintf("pnpm add https://github.com/%s/%%s#v%%s", githubAccount)
 	name, _ := pkg["name"].(string)
 	packageName := strings.TrimPrefix(name, "@")
 	clipboardText := fmt.Sprintf(clipboardMask, packageName, newVersion)
