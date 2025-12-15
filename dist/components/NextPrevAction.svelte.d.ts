@@ -1,4 +1,4 @@
-interface Props {
+export interface Props {
     totalPages: number;
     pageNumber: number;
     navRoute: string;
