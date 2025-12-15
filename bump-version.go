@@ -217,7 +217,7 @@ func main() {
 	}
 
 	// Create clipboard string
-	clipboardMask := "pnpm add https://github.com/rogerpence"
+	clipboardMask := "pnpm add https://github.com/rogerpence:%s#v%s"
 	name, _ := pkg["name"].(string)
 	packageName := strings.TrimPrefix(name, "@")
 	clipboardText := fmt.Sprintf(clipboardMask, packageName, newVersion)
