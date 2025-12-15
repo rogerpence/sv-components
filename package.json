@@ -1,6 +1,6 @@
 {
 	"name": "sv-components",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
@@ -27,7 +27,10 @@
 		".": {
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js"
-		}
+		},
+		"./css/next-prev-action/component.css": "./dist/css/next-prev-action/component.css",
+		"./css/next-prev-action/root.css": "./dist/css/next-prev-action/root.css",
+		"./css/next-prev-action/utilities.css": "./dist/css/next-prev-action/utilities.css"
 	},
 	"peerDependencies": {
 		"svelte": "^5.0.0"
