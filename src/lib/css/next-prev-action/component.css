@@ -1,0 +1,49 @@
+    @scope (div.page-navigator-container) {
+		:scope {
+			color: black;
+			display: flex;
+			align-items: center;
+			gap: 1rem;
+			margin-block-start: 2rem;
+		}
+
+		a {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: black;
+			text-decoration: none;
+
+			&:hover {
+				outline: 1px solid red;
+			}
+		}
+
+		i {
+			font-size: 1.4rem;
+			color: black;
+			cursor: pointer;
+		}
+
+		i.icon {
+			width: 16px;
+			height: 16px;
+			mask-repeat: no-repeat;
+			-webkit-mask-repeat: no-repeat;
+			mask-position: center;
+			-webkit-mask-position: center;
+		}
+
+		i.next-icon {
+			background-color: gray;
+			mask-image: var(--icon-arrowhead-right);
+			-webkit-mask-image: var(--icon-arrowhead-right);
+		}
+
+		i.previous-icon {
+			background-color: gray;
+			mask-image: var(--icon-chevron-right);
+			-webkit-mask-image: var(--icon-arrowhead-right);
+			transform: scaleX(-1);
+		}
+	}

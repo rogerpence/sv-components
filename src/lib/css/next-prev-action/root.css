@@ -1,0 +1,10 @@
+:root {
+
+    /*  
+        Convert raw SVG to CSS url.   
+        https://www.svgbackgrounds.com/tools/svg-to-css/
+    */
+    --icon-arrowhead-right: url('data:image/svg+xml,<svg viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="%23000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><rect width="16" height="16" id="icon-bound" fill="none"></rect><polygon points="13,8 5,16 5,0"></polygon></g></svg>');
+    --icon-chevron-right: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve" fill="%23000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><polygon fill="%23010101" points="102.296,59.957 42.264,119.99 25.605,103.34 85.639,43.299 "></polygon><polygon fill="%23010101" points="85.74,76.71 25.715,16.653 42.373,0.011 102.391,60.067 "></polygon></g></svg>');
+    --icon-chevron-left: url('data:image/svg+xml,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="16px" viewBox="0 0 120 120" enable-background="new 0 0 120 120" xml:space="preserve" fill="%23000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><polygon fill="%23010101" points="34.358,43.299 94.391,103.34 77.732,119.99 17.7,59.957 "></polygon><polygon fill="%23010101" points="17.606,60.067 77.623,0.011 94.281,16.653 34.256,76.71 "></polygon></g></svg>');
+}    
